@@ -1,27 +1,42 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <title>Address Book</title>
-  </head>
-  <body>
-    <div class="container">
-      <h1>Address Book</h1>
-      <h3>Add a new contact:</h3>
-      <form id="newContact">
-        <label for="newFirstName">First Name:</label>
-        <input type="text" id="newFirstName">
-        <label for="newLastName">Last Name:</label>
-        <input type="text" id="newLastName">
-        <label for="newPhoneNumber">Phone Number:</label>
-        <input type="text" id="newPhoneNumber">
-        <button type="submit" class="btn btn-success">Add Contact!</button>
-      </form>
-    </div>
-  </body>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-3.5.1.js"></script>
+<script src="js/scripts.js"></script>
+<title>Address Book</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Address Book</h1>
+    <h3>Add a new contact:</h3>
+    <form id="newContact">
+      <label for="newFirstName">First Name:</label>
+      <input type="text" id="newFirstName">
+      <br>
+      <label for="newLastName">Last Name:</label>
+      <input type="text" id="newLastName">
+      <br>
+      <label for="newPhoneNumber">Phone Number:</label>
+      <input type="text" id="newPhoneNumber">
+      <br>
+      <br>
+      <button type="submit" class="btn btn-success">Add Contact!</button>
+    </form>
+    <br>
+    <h3>Here are your contacts:</h3>
+    <ul id="contacts">
+    </ul>
+
+    <div id="showContact">
+      <p>First Name: <span class="firstName"></span></p>
+      <p>Last Name: <span class="lastName"></span></p>
+      <p>Phone Number: <span class="phoneNumber"></span></p>
+      <div id="buttons">
+    </div> 
+  </div>
+</body>
 </html>

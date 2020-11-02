@@ -1,35 +1,39 @@
-# [Project Name]
+# Address Book
 
-## [Brief summary], [Current version date]
+## Add, change, and delete from an address book, 11-02-2020
 
-### [All Authors]
+### Ben McFarland, Callie Stump
 
-[Deatiled full description of the whole program]
+A program to build an address book and edit the book however the user chooses to.
 
 ## Setup/Installation Requirements
 
-* [Item 1]
-* [Item 2]
-* [Item 3]
-
-[Intallation description]
+* Copy the url.
+* Go into your machines terminal or command line.
+* Navigate through the command line to the directory you would like this repository.
+* Type in the command: `git clone [Copied URL]`.
+* Navigate into the new folder and use the command `code .`, to open the project.
 
 ## Known Bugs/Issues
 
-[Description of all known bugs and issues]
+There are no known bugs or issues
 
 ## Support and Contact Details
 
-[Where/who to go to if there are any questions or comments]
+* benrmcfarland@gmail.com
+* callie@stu.mp
 
 ## Technology Used
 
-* [Language 1]
-* [Language 2]
-* [Software 1]
+* VS Code
+* JavaScript
+* HTML
+* CSS
+* jQuery
+* Bootstrap
 
 ## Licenseing and Copyright
 
-[Determine the license which this application can be under (Typically MIT or GPL)]
+This project is licensed under the GPL license.
 
-Copyright (c) 20-- [List of authors/company(s)]
+Copyright (c) 2020 Ben McFarland, Callie Stump
